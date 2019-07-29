@@ -37,7 +37,7 @@ class EasyLTP(object):
 
     def seg_sent(self, sent):
         words = self.seg.segment(sent)
-        return list(words)
+        return [str(w) for w in words]
 
     # def fix_seg(self,sent,pattern):
     #     if '@' not in
@@ -45,11 +45,11 @@ class EasyLTP(object):
     def pos_sent(self, sent):
         words = self.seg.segment(sent)
         poss = self.pos.postag(words)
-        return list(poss)
+        return [str(p) for p in poss]
 
     def pos_words(self, words):
         poss = self.pos.postag(words)
-        return list(poss)
+        return [str(p) for p in poss]
 
     def ner_sent(self, sent):
         # Nh:人名

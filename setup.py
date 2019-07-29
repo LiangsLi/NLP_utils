@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='NLP_utils',
-    version='2019.7.29.4',
+    version='2019.7.29.5',
     packages=['NLP_utils'],
     url='',
     license='',
