@@ -13,6 +13,6 @@
 _year = '2019'
 _month = '8'
 _day = '8'
-_min_version = '10'
+_min_version = '11'
 
 VERSION = f'{_year}.{_month}.{_day}.{_min_version}'
