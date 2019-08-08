@@ -4,10 +4,9 @@
    File Name：     __init__.py
    Description :
    Author :       Liangs
-   date：          2019/7/29
+   date：          2019/8/8
 -------------------------------------------------
    Change Activity:
-                   2019/7/29:
+                   2019/8/8:
 -------------------------------------------------
 """
-from NLP_utils.version import VERSION as __version__
